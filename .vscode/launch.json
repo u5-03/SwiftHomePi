@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug SwiftHomePi",
+            "program": ".build/debug/SwiftHomePi",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftHomePi}",
+            "preLaunchTask": "swift: Build Debug SwiftHomePi"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release SwiftHomePi",
+            "program": ".build/release/SwiftHomePi",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftHomePi}",
+            "preLaunchTask": "swift: Build Release SwiftHomePi"
+        }
+    ]
+}
